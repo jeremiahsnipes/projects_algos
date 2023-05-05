@@ -1,15 +1,31 @@
-A text (.txt) file with the following (thanks to TA Justina Gray for this!):
+Name: <Jeremiah Snipes >
 
-Name: < Put your name here >
+Stack: < Python with Flask >
 
-Stack: < Pick Python, Java or JavaScript/MERN [or even a combo if you're up to the challenge, like React with Flask] for the stack to build your project >
+GitHub Repo link: < https://github.com/jeremiahsnipes/projects_algos.git >
 
-GitHub Repo link: < Put your GitHub repo link here >
+Project name: < sbp_project >
 
-Project name: < Put the title of your project here >
+Project description: < Superbike News Aggregator - An app that aggregates superbike news from 
+various sources and displays them in one place. It could also have features like filtering news by 
+category, search, and notifications for breaking news. >
 
-Project description: < Describe what your project is about, why you're building it >
+MVP (Minimum Viable Product) features: < Minimum Viable Product (MVP):
 
-MVP (Minimum Viable Product) features: < The features you must have that should be built within the timeframe >
+Home Page - Displaying latest and most popular articles.
 
-Bonus feature(s): < See platform for ideas for bonus features - you must have at least one; this is meant to get you to look into next technologies and challenge yourself to grow as a developer >
+Category Page - Allowing users to browse articles by category.
+
+Search Page - Allowing users to search for articles by keyword.
+
+Article Page - Displaying the full article along with any accompanying images or videos.
+
+Comments - Allowing users to add comments to an article.
+
+Share - Allowing users to share an article on social media.
+
+Notification - Providing users with notifications for breaking news or important events.
+
+User Registration/Login - Allowing users to create and manage their accounts. >
+
+Bonus feature(s): < SDark Mode - Providing users with an option to switch to a dark mode theme for better reading experience. >
