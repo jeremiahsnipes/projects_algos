@@ -1,0 +1,15 @@
+A text (.txt) file with the following (thanks to TA Justina Gray for this!):
+
+Name: < Put your name here >
+
+Stack: < Pick Python, Java or JavaScript/MERN [or even a combo if you're up to the challenge, like React with Flask] for the stack to build your project >
+
+GitHub Repo link: < Put your GitHub repo link here >
+
+Project name: < Put the title of your project here >
+
+Project description: < Describe what your project is about, why you're building it >
+
+MVP (Minimum Viable Product) features: < The features you must have that should be built within the timeframe >
+
+Bonus feature(s): < See platform for ideas for bonus features - you must have at least one; this is meant to get you to look into next technologies and challenge yourself to grow as a developer >
