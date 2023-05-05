@@ -4,28 +4,20 @@ Stack: < Python with Flask >
 
 GitHub Repo link: < https://github.com/jeremiahsnipes/projects_algos.git >
 
-Project name: < sbp_project >
+Project name: < ducky_crypt >
 
-Project description: < Superbike News Aggregator - An app that aggregates superbike news from 
-various sources and displays them in one place. It could also have features like filtering news by 
-category, search, and notifications for breaking news. >
+Project description: < Duck Encoder: Create a Python web application that allows users to encode payloads using the DuckScript language used by the USB Rubber Ducky. The application could provide a user-friendly interface for users to enter their scripts and payloads, and generate the corresponding DuckScript code. >
 
 MVP (Minimum Viable Product) features: < Minimum Viable Product (MVP):
 
-Home Page - Displaying latest and most popular articles.
+Encoder web application:
 
-Category Page - Allowing users to browse articles by category.
+Encode payloads using the DuckScript language
 
-Search Page - Allowing users to search for articles by keyword.
+Basic error handling to ensure that the input entered by the user is valid DuckScript code
 
-Article Page - Displaying the full article along with any accompanying images or videos.
+Simple user interface that allows users to enter their payload and view the encoded result
 
-Comments - Allowing users to add comments to an article.
+Basic security measures to prevent attacks such as SQL injection or cross-site scripting, including sanitizing user input
 
-Share - Allowing users to share an article on social media.
-
-Notification - Providing users with notifications for breaking news or important events.
-
-User Registration/Login - Allowing users to create and manage their accounts. >
-
-Bonus feature(s): < SDark Mode - Providing users with an option to switch to a dark mode theme for better reading experience. >
+Bonus feature(s): < Dark Mode - Providing users with an option to switch to a dark mode theme for better reading experience. >
