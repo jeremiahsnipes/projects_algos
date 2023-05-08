@@ -7,7 +7,7 @@ class MySQLConnection:
         connection = pymysql.connect(host = 'localhost',
                                     user = 'root', #remember this is my password for SQL
                                     password = 'root', 
-                                    db = 'user_scripts', #this changes from project to project, remeber to update accordingly
+                                    db = 'ducky_crypt', #this changes from project to project, remeber to update accordingly
                                     charset = 'utf8mb4',
                                     cursorclass = pymysql.cursors.DictCursor,
                                     autocommit = True)
