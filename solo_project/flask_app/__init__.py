@@ -13,9 +13,9 @@ bcrypt = Bcrypt(app)
 # This line sets a secret key for the Flask app.
 # This key is used to encrypt sensitive information.
 
-app.secret_key = 'Its_the_principal'
+app.secret_key = 'for_valhalla'
 
 # This line imports two things called 'users' and 'plural(s)' from a module called 'controllers'
 # These are likely parts of a web application that the program will use.
 
-from flask_app.controllers import users, user_scripts
+from flask_app.controllers import users, user_scripts, encode_controller
