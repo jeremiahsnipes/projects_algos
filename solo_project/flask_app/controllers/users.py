@@ -51,3 +51,7 @@ def logout():
     if 'user_id' in session:
         session.pop('user_id')
     return redirect('/user/login')
+
+
+
+

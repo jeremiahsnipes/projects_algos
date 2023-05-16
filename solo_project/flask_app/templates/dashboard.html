@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>user_script List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/dark-mode.css') }}" id="dark-mode-css"> -->
+</head>
+<body>
+    <div class="container mt-2">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <h1>Welcome {{user.first_name}} {{user.last_name}}</h1>
+            </div>
+            <div class="col-md-6 d-flex justify-content-end">
+                <!-- <button class="btn btn-secondary mr-2" style="height: 70%;" onclick="toggleDarkMode()">Toggle Dark Mode</button> -->
+                <a href="/user_scripts/new" class="btn btn-secondary mr-2" style="height: 70%;">Create</a>
+                <a href="/user/logout" class="btn btn-secondary" style="height: 70%;">Logout</a>
+                <a href="/encode" class="btn btn-primary ml-2" style="height: 70%;">Encoder</a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <h4>Check out some of these user_scripts!</h4>
+                <table class="table table-light table-striped table-hover table-responsive-md fs-4 text-center">
+                    <thead>
+                        <tr>
+                            <th>Script Name</th>
+                            <th>Author</th>
+                            <th>release_date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for user_script in user_scripts %}
+                        <tr>
+                            <td>{{user_script.script_name}}</td>
+                            <td>{{user_script.creator.first_name}}</td>
+                            <td>{{user_script.release_date}}</td>
+                            <td>
+                                <a href="/user_scripts/{{user_script.id}}" class="btn btn-warning">View Description</a>
+                                {% if session['user_id'] == user_script.creator.id %}
+                                <a href="/user_scripts/edit/{{user_script.id}}" class="btn btn-outline-info">Edit</a>
+                                <a href="/user_scripts/destroy/{{user_script.id}}" class="btn btn-danger">Delete</a>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- <script>
+        function toggleDarkMode() {
+            var body = document.body;
+            body.classList.toggle("dark-mode");
+        }
+    </script> -->
+</body>
+</html>

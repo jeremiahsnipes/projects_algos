@@ -18,4 +18,4 @@ app.secret_key = 'Its_the_principal'
 # This line imports two things called 'users' and 'plural(s)' from a module called 'controllers'
 # These are likely parts of a web application that the program will use.
 
-from flask_app.controllers import users
+from flask_app.controllers import users, user_scripts

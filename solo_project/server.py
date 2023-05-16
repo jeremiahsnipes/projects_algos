@@ -2,7 +2,7 @@
 # It imports two modules called 'app' and 'controllers' from the Flask application.
 
 from flask_app import app
-from flask_app.controllers import users
+from flask_app.controllers import users, user_scripts, encode_controller
 
 # This line checks if this is the main file being run.
 # If it is, it turns on the Flask app in debug mode which helps catch errors while building the website.
