@@ -1,6 +1,6 @@
 Name: <Jeremiah Snipes >
 
-Stack: < Python w/ Flask >
+Stack: < Python wtih Flask >
 
 GitHub Repo link: < https://github.com/jeremiahsnipes/projects_algos.git >
 
@@ -12,7 +12,7 @@ MVP (Minimum Viable Product) features: < Minimum Viable Product (MVP):
 
 Encoder web application:
 
-Encode payloads using the DuckScript language
+Encode payloads using the DuckScript language. (a work in progress)
 
 Basic error handling to ensure that the input entered by the user is valid DuckScript code
 
