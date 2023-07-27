@@ -1,6 +1,6 @@
 Name: <Jeremiah Snipes >
 
-Stack: < Python wtih Flask >
+Stack: < Python w/ Flask >
 
 GitHub Repo link: < https://github.com/jeremiahsnipes/projects_algos.git >
 
